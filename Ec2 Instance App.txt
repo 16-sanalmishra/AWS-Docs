@@ -5,3 +5,6 @@ sudo systemctl enable httpd
 sudo chmod 0777 /var/www/html
 aws s3 cp s3://<your-bucket-name>/my-app.zip .
 unzip my-app.zip -d /var/www/html
+
+
+rk9876-appsbucket/${JOB_NAME}-${BUILD_NUMBER}
